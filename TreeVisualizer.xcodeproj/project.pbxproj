@@ -15,6 +15,13 @@
 		9D3B456F14DB1FB80057648C /* TreeVisualizerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B456E14DB1FB80057648C /* TreeVisualizerAppDelegate.m */; };
 		9D3B457214DB1FB80057648C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B457014DB1FB80057648C /* MainStoryboard.storyboard */; };
 		9D3B457514DB1FB80057648C /* TreeVisualizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B457414DB1FB80057648C /* TreeVisualizerViewController.m */; };
+		9D3B458414DB27A60057648C /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B457D14DB27A60057648C /* Icon-72.png */; };
+		9D3B458514DB27A60057648C /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B457E14DB27A60057648C /* Icon-Small-50.png */; };
+		9D3B458614DB27A60057648C /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B457F14DB27A60057648C /* Icon-Small.png */; };
+		9D3B458714DB27A60057648C /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B458014DB27A60057648C /* Icon-Small@2x.png */; };
+		9D3B458814DB27A60057648C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B458114DB27A60057648C /* Icon.png */; };
+		9D3B458914DB27A60057648C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B458214DB27A60057648C /* Icon@2x.png */; };
+		9D3B458C14DB27D70057648C /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B458B14DB27D70057648C /* iTunesArtwork */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +29,22 @@
 		9D3B455E14DB1FB80057648C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9D3B456014DB1FB80057648C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9D3B456214DB1FB80057648C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9D3B456614DB1FB80057648C /* TreeVisualizer-Info.plist */ = {isa = PBXFileReference; path = "TreeVisualizer-Info.plist"; sourceTree = "<group>"; };
+		9D3B456614DB1FB80057648C /* TreeVisualizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TreeVisualizer-Info.plist"; sourceTree = "<group>"; };
 		9D3B456814DB1FB80057648C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9D3B456A14DB1FB80057648C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9D3B456C14DB1FB80057648C /* TreeVisualizer-Prefix.pch */ = {isa = PBXFileReference; path = "TreeVisualizer-Prefix.pch"; sourceTree = "<group>"; };
-		9D3B456D14DB1FB80057648C /* TreeVisualizerAppDelegate.h */ = {isa = PBXFileReference; path = TreeVisualizerAppDelegate.h; sourceTree = "<group>"; };
+		9D3B456C14DB1FB80057648C /* TreeVisualizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TreeVisualizer-Prefix.pch"; sourceTree = "<group>"; };
+		9D3B456D14DB1FB80057648C /* TreeVisualizerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeVisualizerAppDelegate.h; sourceTree = "<group>"; };
 		9D3B456E14DB1FB80057648C /* TreeVisualizerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeVisualizerAppDelegate.m; sourceTree = "<group>"; };
 		9D3B457114DB1FB80057648C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		9D3B457314DB1FB80057648C /* TreeVisualizerViewController.h */ = {isa = PBXFileReference; path = TreeVisualizerViewController.h; sourceTree = "<group>"; };
+		9D3B457314DB1FB80057648C /* TreeVisualizerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeVisualizerViewController.h; sourceTree = "<group>"; };
 		9D3B457414DB1FB80057648C /* TreeVisualizerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeVisualizerViewController.m; sourceTree = "<group>"; };
+		9D3B457D14DB27A60057648C /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		9D3B457E14DB27A60057648C /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		9D3B457F14DB27A60057648C /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		9D3B458014DB27A60057648C /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		9D3B458114DB27A60057648C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9D3B458214DB27A60057648C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		9D3B458B14DB27D70057648C /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +64,7 @@
 		9D3B454F14DB1FB80057648C = {
 			isa = PBXGroup;
 			children = (
+				9D3B457B14DB27720057648C /* Resources */,
 				9D3B456414DB1FB80057648C /* TreeVisualizer */,
 				9D3B455D14DB1FB80057648C /* Frameworks */,
 				9D3B455B14DB1FB80057648C /* Products */,
@@ -96,6 +111,28 @@
 				9D3B456C14DB1FB80057648C /* TreeVisualizer-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D3B457B14DB27720057648C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D3B457C14DB27800057648C /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9D3B457C14DB27800057648C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9D3B458B14DB27D70057648C /* iTunesArtwork */,
+				9D3B457D14DB27A60057648C /* Icon-72.png */,
+				9D3B457E14DB27A60057648C /* Icon-Small-50.png */,
+				9D3B457F14DB27A60057648C /* Icon-Small.png */,
+				9D3B458014DB27A60057648C /* Icon-Small@2x.png */,
+				9D3B458114DB27A60057648C /* Icon.png */,
+				9D3B458214DB27A60057648C /* Icon@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +187,13 @@
 			files = (
 				9D3B456914DB1FB80057648C /* InfoPlist.strings in Resources */,
 				9D3B457214DB1FB80057648C /* MainStoryboard.storyboard in Resources */,
+				9D3B458414DB27A60057648C /* Icon-72.png in Resources */,
+				9D3B458514DB27A60057648C /* Icon-Small-50.png in Resources */,
+				9D3B458614DB27A60057648C /* Icon-Small.png in Resources */,
+				9D3B458714DB27A60057648C /* Icon-Small@2x.png in Resources */,
+				9D3B458814DB27A60057648C /* Icon.png in Resources */,
+				9D3B458914DB27A60057648C /* Icon@2x.png in Resources */,
+				9D3B458C14DB27D70057648C /* iTunesArtwork in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +283,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TreeVisualizer/TreeVisualizer-Prefix.pch";
 				INFOPLIST_FILE = "TreeVisualizer/TreeVisualizer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -250,7 +296,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TreeVisualizer/TreeVisualizer-Prefix.pch";
 				INFOPLIST_FILE = "TreeVisualizer/TreeVisualizer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
