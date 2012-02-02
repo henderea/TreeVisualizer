@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D3B455F14DB1FB80057648C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3B455E14DB1FB80057648C /* UIKit.framework */; };
+		9D3B456114DB1FB80057648C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3B456014DB1FB80057648C /* Foundation.framework */; };
+		9D3B456314DB1FB80057648C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3B456214DB1FB80057648C /* CoreGraphics.framework */; };
+		9D3B456914DB1FB80057648C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B456714DB1FB80057648C /* InfoPlist.strings */; };
+		9D3B456B14DB1FB80057648C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B456A14DB1FB80057648C /* main.m */; };
+		9D3B456F14DB1FB80057648C /* TreeVisualizerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B456E14DB1FB80057648C /* TreeVisualizerAppDelegate.m */; };
+		9D3B457214DB1FB80057648C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B457014DB1FB80057648C /* MainStoryboard.storyboard */; };
+		9D3B457514DB1FB80057648C /* TreeVisualizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B457414DB1FB80057648C /* TreeVisualizerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D3B455A14DB1FB80057648C /* TreeVisualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeVisualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D3B455E14DB1FB80057648C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D3B456014DB1FB80057648C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D3B456214DB1FB80057648C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D3B456614DB1FB80057648C /* TreeVisualizer-Info.plist */ = {isa = PBXFileReference; path = "TreeVisualizer-Info.plist"; sourceTree = "<group>"; };
+		9D3B456814DB1FB80057648C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D3B456A14DB1FB80057648C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D3B456C14DB1FB80057648C /* TreeVisualizer-Prefix.pch */ = {isa = PBXFileReference; path = "TreeVisualizer-Prefix.pch"; sourceTree = "<group>"; };
+		9D3B456D14DB1FB80057648C /* TreeVisualizerAppDelegate.h */ = {isa = PBXFileReference; path = TreeVisualizerAppDelegate.h; sourceTree = "<group>"; };
+		9D3B456E14DB1FB80057648C /* TreeVisualizerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeVisualizerAppDelegate.m; sourceTree = "<group>"; };
+		9D3B457114DB1FB80057648C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9D3B457314DB1FB80057648C /* TreeVisualizerViewController.h */ = {isa = PBXFileReference; path = TreeVisualizerViewController.h; sourceTree = "<group>"; };
+		9D3B457414DB1FB80057648C /* TreeVisualizerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeVisualizerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D3B455714DB1FB80057648C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D3B455F14DB1FB80057648C /* UIKit.framework in Frameworks */,
+				9D3B456114DB1FB80057648C /* Foundation.framework in Frameworks */,
+				9D3B456314DB1FB80057648C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D3B454F14DB1FB80057648C = {
+			isa = PBXGroup;
+			children = (
+				9D3B456414DB1FB80057648C /* TreeVisualizer */,
+				9D3B455D14DB1FB80057648C /* Frameworks */,
+				9D3B455B14DB1FB80057648C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D3B455B14DB1FB80057648C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D3B455A14DB1FB80057648C /* TreeVisualizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D3B455D14DB1FB80057648C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D3B455E14DB1FB80057648C /* UIKit.framework */,
+				9D3B456014DB1FB80057648C /* Foundation.framework */,
+				9D3B456214DB1FB80057648C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D3B456414DB1FB80057648C /* TreeVisualizer */ = {
+			isa = PBXGroup;
+			children = (
+				9D3B456D14DB1FB80057648C /* TreeVisualizerAppDelegate.h */,
+				9D3B456E14DB1FB80057648C /* TreeVisualizerAppDelegate.m */,
+				9D3B457014DB1FB80057648C /* MainStoryboard.storyboard */,
+				9D3B457314DB1FB80057648C /* TreeVisualizerViewController.h */,
+				9D3B457414DB1FB80057648C /* TreeVisualizerViewController.m */,
+				9D3B456514DB1FB80057648C /* Supporting Files */,
+			);
+			path = TreeVisualizer;
+			sourceTree = "<group>";
+		};
+		9D3B456514DB1FB80057648C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D3B456614DB1FB80057648C /* TreeVisualizer-Info.plist */,
+				9D3B456714DB1FB80057648C /* InfoPlist.strings */,
+				9D3B456A14DB1FB80057648C /* main.m */,
+				9D3B456C14DB1FB80057648C /* TreeVisualizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D3B455914DB1FB80057648C /* TreeVisualizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D3B457814DB1FB80057648C /* Build configuration list for PBXNativeTarget "TreeVisualizer" */;
+			buildPhases = (
+				9D3B455614DB1FB80057648C /* Sources */,
+				9D3B455714DB1FB80057648C /* Frameworks */,
+				9D3B455814DB1FB80057648C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreeVisualizer;
+			productName = TreeVisualizer;
+			productReference = 9D3B455A14DB1FB80057648C /* TreeVisualizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D3B455114DB1FB80057648C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9D3B455414DB1FB80057648C /* Build configuration list for PBXProject "TreeVisualizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D3B454F14DB1FB80057648C;
+			productRefGroup = 9D3B455B14DB1FB80057648C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D3B455914DB1FB80057648C /* TreeVisualizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D3B455814DB1FB80057648C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D3B456914DB1FB80057648C /* InfoPlist.strings in Resources */,
+				9D3B457214DB1FB80057648C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D3B455614DB1FB80057648C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D3B456B14DB1FB80057648C /* main.m in Sources */,
+				9D3B456F14DB1FB80057648C /* TreeVisualizerAppDelegate.m in Sources */,
+				9D3B457514DB1FB80057648C /* TreeVisualizerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D3B456714DB1FB80057648C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D3B456814DB1FB80057648C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D3B457014DB1FB80057648C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D3B457114DB1FB80057648C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D3B457614DB1FB80057648C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D3B457714DB1FB80057648C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D3B457914DB1FB80057648C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreeVisualizer/TreeVisualizer-Prefix.pch";
+				INFOPLIST_FILE = "TreeVisualizer/TreeVisualizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D3B457A14DB1FB80057648C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreeVisualizer/TreeVisualizer-Prefix.pch";
+				INFOPLIST_FILE = "TreeVisualizer/TreeVisualizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D3B455414DB1FB80057648C /* Build configuration list for PBXProject "TreeVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D3B457614DB1FB80057648C /* Debug */,
+				9D3B457714DB1FB80057648C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D3B457814DB1FB80057648C /* Build configuration list for PBXNativeTarget "TreeVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D3B457914DB1FB80057648C /* Debug */,
+				9D3B457A14DB1FB80057648C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D3B455114DB1FB80057648C /* Project object */;
+}
