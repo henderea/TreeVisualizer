@@ -22,6 +22,8 @@
 		9D3B458814DB27A60057648C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B458114DB27A60057648C /* Icon.png */; };
 		9D3B458914DB27A60057648C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B458214DB27A60057648C /* Icon@2x.png */; };
 		9D3B458C14DB27D70057648C /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B458B14DB27D70057648C /* iTunesArtwork */; };
+		9D3B458F14DB2B9D0057648C /* RedBlackTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B458E14DB2B9D0057648C /* RedBlackTree.m */; };
+		9D3B459214DB32530057648C /* BinaryNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B459114DB32530057648C /* BinaryNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,10 @@
 		9D3B458114DB27A60057648C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		9D3B458214DB27A60057648C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		9D3B458B14DB27D70057648C /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		9D3B458D14DB2B9D0057648C /* RedBlackTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedBlackTree.h; sourceTree = "<group>"; };
+		9D3B458E14DB2B9D0057648C /* RedBlackTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedBlackTree.m; sourceTree = "<group>"; };
+		9D3B459014DB32530057648C /* BinaryNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryNode.h; sourceTree = "<group>"; };
+		9D3B459114DB32530057648C /* BinaryNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,10 @@
 				9D3B457314DB1FB80057648C /* TreeVisualizerViewController.h */,
 				9D3B457414DB1FB80057648C /* TreeVisualizerViewController.m */,
 				9D3B456514DB1FB80057648C /* Supporting Files */,
+				9D3B458D14DB2B9D0057648C /* RedBlackTree.h */,
+				9D3B459014DB32530057648C /* BinaryNode.h */,
+				9D3B459114DB32530057648C /* BinaryNode.m */,
+				9D3B458E14DB2B9D0057648C /* RedBlackTree.m */,
 			);
 			path = TreeVisualizer;
 			sourceTree = "<group>";
@@ -207,6 +217,8 @@
 				9D3B456B14DB1FB80057648C /* main.m in Sources */,
 				9D3B456F14DB1FB80057648C /* TreeVisualizerAppDelegate.m in Sources */,
 				9D3B457514DB1FB80057648C /* TreeVisualizerViewController.m in Sources */,
+				9D3B458F14DB2B9D0057648C /* RedBlackTree.m in Sources */,
+				9D3B459214DB32530057648C /* BinaryNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
